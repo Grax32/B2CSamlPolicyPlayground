@@ -2,8 +2,8 @@
 <TrustFrameworkPolicy
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"  xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06" PolicySchemaVersion="0.3.0.0"
   TenantId="AuthShowcase.onmicrosoft.com"
-  PolicyId="B2C_1A_SAML2_signup_signin"
-  PublicPolicyUri="http://AuthShowcase.onmicrosoft.com/B2C_1A_SAML2_signup_signin">
+  PolicyId="B2C_1A_SAML2_handoff"
+  PublicPolicyUri="http://AuthShowcase.onmicrosoft.com/B2C_1A_SAML2_handoff">
 
   <BasePolicy>
     <TenantId>AuthShowcase.onmicrosoft.com</TenantId>
@@ -21,7 +21,7 @@
           <OutputTokenFormat>SAML2</OutputTokenFormat>
           <Metadata>
             <!-- Action required: make sure value is the same one as configured in the relaying party application-->
-            <Item Key="IssuerUri">https://AuthShowcase.b2clogin.com/AuthShowcase.onmicrosoft.com/B2C_1A_SAML2_signup_signin</Item>
+            <Item Key="IssuerUri">https://AuthShowcase.b2clogin.com/AuthShowcase.onmicrosoft.com/B2C_1A_SAML2_handoff</Item>
           </Metadata>
           <CryptographicKeys>
             <!--Action required: Create your own certificate and set the name -->
